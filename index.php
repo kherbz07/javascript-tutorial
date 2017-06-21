@@ -3,12 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Javascript Tutorial</title>
+	<link rel="stylesheet" href="css/mystyle.css">
 </head>
 <body>
-	<h3>Hello World!</h3>
-	<p id="par1">This is a paragraph added as a content.</p>
-	<button onclick="newClick()">Click me!</button>
-	<button onclick="alertClick()">Show alert window</button>
+	<h1>Stopwatch</h1>
+	<div>
+		<button id="startBtn">Start</button>
+		<button id="stopBtn">Stop</button>
+		<button id="resetBtn">Reset</button>
+	</div>
+	<br>
+	<div class="watch">
+		<label id="min">00</label>
+		<label>:</label>
+		<label id="sec">00</label>
+		<label>:</label>
+		<label id="ms">00</label>
+	</div>
 
 	<script src="js/myscript.js"></script>
 </body>
